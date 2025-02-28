@@ -1,0 +1,23 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model TicTacToe.Models.Player;
+
+<form action="Login" method="post">
+
+    <fieldset>
+        <label id="PlayerEmail">Email</label>
+        <input type="email" required name="PlayerEmail" value="@Model?.PlayerEmail" />
+    </fieldset>
+
+
+    <fieldset>
+        <label id="PlayerPassword">Password</label>
+        <input type="password" required name="PlayerPassword" value="@Model?.PlayerPassword" />
+    </fieldset>
+
+   
+    <button type="submit">Login</button>
+</form>

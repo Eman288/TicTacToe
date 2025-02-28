@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\New folder (3)\\TicTacToe\\TicTacToe\\TicTacToe.csproj": {}
+    "C:\\New folder (3)\\New folder\\TicTacToe\\TicTacToe\\TicTacToe.csproj": {}
   },
   "projects": {
-    "C:\\New folder (3)\\TicTacToe\\TicTacToe\\TicTacToe.csproj": {
+    "C:\\New folder (3)\\New folder\\TicTacToe\\TicTacToe\\TicTacToe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\New folder (3)\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
+        "projectUniqueName": "C:\\New folder (3)\\New folder\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
         "projectName": "TicTacToe",
-        "projectPath": "C:\\New folder (3)\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
+        "projectPath": "C:\\New folder (3)\\New folder\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
         "packagesPath": "C:\\Users\\ALTHOURAYA\\.nuget\\packages\\",
-        "outputPath": "C:\\New folder (3)\\TicTacToe\\TicTacToe\\obj\\",
+        "outputPath": "C:\\New folder (3)\\New folder\\TicTacToe\\TicTacToe\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ALTHOURAYA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

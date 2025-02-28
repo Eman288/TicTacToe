@@ -2,7 +2,9 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+
+<section>
+    <h1>Choose The Mode</h1>
+    <a asp-controller="Game" asp-action="Game" asp-route-mode="1">Single</a>
+    <a asp-controller="Game" asp-action="Game" asp-route-mode="2">Two-Player</a>
+</section>
